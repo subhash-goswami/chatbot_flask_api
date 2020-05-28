@@ -1,1 +1,1 @@
-web: gunicorn chat-bot-api-flask.wsgi
+web: wsgi chat-bot-api-flask.wsgi
