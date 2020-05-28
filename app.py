@@ -17,9 +17,11 @@ english_bot = ChatBot("MyChatBot",
 trainer = ChatterBotCorpusTrainer(english_bot)
 trainer.train("chatterbot.corpus.english")
 
+
 @app.route("/")
 def test_home():
     return {"Message": "Working Successfully"}, 200
+
 
 @app.route("/home")
 def home():
