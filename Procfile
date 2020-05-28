@@ -1,1 +1,1 @@
-web: wsgi chat-bot-api-flask.wsgi
+web: uwsgi uwsgi.ini
