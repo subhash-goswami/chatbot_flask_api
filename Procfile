@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: gunicorn chat-bot-api-flask.wsgi
